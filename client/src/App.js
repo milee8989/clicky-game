@@ -15,7 +15,7 @@ class App extends React.Component {
         score: 0,
         images:[],
         images_clicked:[],
-        searchterm:"kites"
+        searchterm:""
     }
     componentDidMount() {
         API.search(this.state.searchterm)
